@@ -92,7 +92,6 @@ a {
 .browney-image {
     height: 250px;
     border-radius: 50%;
-
 }
 
 .button {
@@ -115,17 +114,17 @@ a {
 .triangle {
     display: flex;
     justify-content: center;
-    height: 200px;
-    border-left: 135px solid transparent;
-    border-right: 135px solid transparent;
-    border-bottom: 200px solid #6C84FF;
+    height: 220px;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 220px solid #6C84FF;
     position: relative;
 }
 
 
 
 .browney-arjen-img {
-    height: 200px;
+    height: 220px;
 }
 
 .circle {
@@ -140,8 +139,8 @@ a {
 
 
 .transformation-img {
-    height: 50vw;
-    width: 35vw;
+    height: 250px;
+    width: 200px;
     border-radius: 80px 80px 80px 80px;
     mix-blend-mode: normal;
     background: white;
@@ -169,20 +168,9 @@ a {
     padding: 1rem;
     border-radius: 25px;
     border: 1px solid black;
-    max-width: 600px;
+    min-width: 368px;
 }
 
-.quotation-name {
-    display: flex;
-    background: #ffffff;
-    padding: 1rem;
-    border-radius: 25px;
-    border: 1px solid black;
-    font-size: 16px;
-    position: absolute;
-    margin-left: 5rem;
-
-}
 .arrow{
     height: 80px;
 }
@@ -244,7 +232,7 @@ footer {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1050px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -427,7 +415,8 @@ footer {
         padding: 1rem;
         border-radius: 25px;
         border: 1px solid black;
-        width: 80%;
+        min-width: 368px;
+
     }
 
     .quotation-name {
@@ -448,7 +437,7 @@ footer {
         margin: 4rem;
     }
 
-    .social-container{
+    .сontainer{
         display: flex;
         flex-direction: row;
         justify-content: center;
