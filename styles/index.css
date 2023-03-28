@@ -115,16 +115,11 @@ a {
     display: flex;
     justify-content: center;
     height: 220px;
-    border-left: 200px solid transparent;
-    border-right: 200px solid transparent;
-    border-bottom: 220px solid #6C84FF;
-    position: relative;
+    border-bottom: 15px solid #6C84FF;
 }
 
-
-
 .browney-arjen-img {
-    height: 220px;
+    height: 300px;
 }
 
 .circle {
@@ -372,8 +367,9 @@ footer {
     }
 
     .browney-arjen-img {
-        height: 400px;
+        height: 450px;
         border-radius: 20%;
+        margin-left: 10rem;
     }
 
     .circle {
