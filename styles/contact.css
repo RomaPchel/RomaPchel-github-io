@@ -61,7 +61,7 @@ a {
     background: #3F67F6;
     border-radius: 15px;
     padding: 1rem;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 
@@ -129,9 +129,6 @@ footer {
 
     .page-title {
         display: flex;
-        justify-content: center;
-        align-self: center;
-        text-align: center;
         font-size: 24px;
     }
 
@@ -225,6 +222,29 @@ footer {
         font-size: 24px;
         text-wrap: normal;
         text-align: center;
+    }
+
+    .email-input{
+        border-radius: 15px;
+        width: 20rem;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .text-input{
+        border-radius: 15px;
+        width: 50rem;
+        height:180px;
+        margin-top: 2rem;
     }
 
     footer {
