@@ -1,0 +1,513 @@
+/* For mobile phones: */
+@import url('https://fonts.cdnfonts.com/css/racing-sans-one');
+[class*="col-"] {
+    width: 100%;
+}
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Racing Sans One', sans-serif;
+
+}
+
+.page-title-2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    color: #3F67F6;
+    white-space: nowrap;
+}
+
+.adaptive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.white-block {
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    padding: 4rem;
+}
+
+header {
+    top: 0;
+    height: 50px;
+}
+
+.header-pick {
+    height: 50px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+li {
+    margin-top: 2rem;
+
+    list-style: none;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.button-row {
+    display: flex;
+    width: 50%;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.grey-block {
+    top: 0;
+    left: 0;
+    background: #EEEEEE;
+    padding: 4rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    font-size: 13px;
+}
+
+.browney-image {
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+.button {
+    background: #3F67F6;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+
+.explanation {
+    font-size: 16px;
+}
+
+.button-label {
+    color: white;
+    font-size: 18px;
+
+}
+
+.triangle {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-left: 135px solid transparent;
+    border-right: 135px solid transparent;
+    border-bottom: 200px solid #6C84FF;
+    position: relative;
+}
+
+
+
+.browney-arjen-img {
+    height: 200px;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background: #6C84FF;
+    width: 250px;
+    height: 250px;
+
+}
+
+
+.transformation-img {
+    height: 50vw;
+    width: 35vw;
+    border-radius: 80px 80px 80px 80px;
+    mix-blend-mode: normal;
+    background: white;
+    margin: 1rem;
+}
+
+.transform-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.quotation {
+    font-size: 16px;
+    margin: 2rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid black;
+    max-width: 600px;
+}
+
+.quotation-name {
+    display: flex;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 5rem;
+
+}
+.arrow{
+    height: 80px;
+}
+
+.footer-photo {
+    height: 200px;
+    position: absolute;
+    margin: 4rem;
+}
+.social-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 100px;
+    border-radius: 25px;
+    background: #ffffff;
+    margin: 0.09rem;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.social-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.social-icon {
+    height: 50%;
+    width: 80%;
+}
+
+.social-text {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-wrap: normal;
+    text-align: center;
+}
+
+footer {
+    background-color: #3F67F6;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    color: #3F67F6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .page-title {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        font-size: 3vw;
+        margin-bottom: 5rem;
+        white-space: nowrap;
+        font-family: 'Racing Sans One', sans-serif;
+
+    }
+
+    .page-title-2{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 5rem;
+        white-space: nowrap;
+        color: #3F67F6;
+
+    }
+
+    .white-block {
+        top: 0;
+        left: 0;
+        background: #ffffff;
+        padding: 4rem;
+    }
+
+    header {
+        top: 0;
+        height: 100px;
+    }
+
+    .header-pick {
+        height: 50px;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    li {
+        list-style: none;
+        margin-right: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .button-row {
+        display: flex;
+        width: 50%;
+        margin-left: 2rem;
+        align-items: center;
+    }
+
+    .option-button-label {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .grey-block {
+        top: 0;
+        left: 0;
+        background: #EEEEEE;
+        padding: 4rem;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
+        font-size: 24px;
+    }
+
+    .browney-image {
+        width: 450px;
+        border-radius: 50%;
+        height: auto;
+
+    }
+
+    .button {
+        background: #3F67F6;
+        border-radius: 15px;
+        padding: 1rem;
+        font-size: 24px;
+    }
+
+
+    .explanation {
+        font-size: 32px;
+    }
+
+    .button-label {
+        color: white;
+        font-size: 24px;
+
+    }
+
+    .triangle {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+        border-left: 200px solid transparent;
+        border-right: 200px solid transparent;
+        border-bottom: 400px solid #6C84FF;
+        margin-left: 12rem;
+
+
+    }
+
+    .browney-arjen-img {
+        height: 400px;
+        border-radius: 20%;
+    }
+
+    .circle {
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        background: #6C84FF;
+        width: 450px;
+        height: 450px;
+
+    }
+
+
+    .transformation-img {
+        height: 30vw;
+        width: 20vw;
+        border-radius: 80px 80px 80px 80px;
+        mix-blend-mode: normal;
+        background: white;
+        margin: 1rem;
+    }
+
+    .transform-photos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .button-div {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-top: 2rem;
+    }
+
+    .quotation {
+        font-size: 24px;
+        margin: 2rem;
+        background: white;
+        padding: 1rem;
+        border-radius: 25px;
+        border: 1px solid black;
+        width: 80%;
+    }
+
+    .quotation-name {
+        display: flex;
+        background: #ffffff;
+        padding: 1rem;
+        border-radius: 25px;
+        border: 1px solid black;
+        font-size: 24px;
+        margin-left: 25rem;
+        position: absolute;
+
+    }
+
+    .footer-photo {
+        height: 200px;
+        position: absolute;
+        margin: 4rem;
+    }
+
+    .social-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .button-wrapper {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: 3rem;
+    }
+
+    .social-icon {
+        height: 50%;
+        width: 80%;
+    }
+    .arrow{
+        height: 150px;
+    }
+    .social-text {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        text-wrap: normal;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #3F67F6;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 48px;
+        color: #3F67F6;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .social-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 200px;
+        width: 140px;
+        border-radius: 25px;
+        background: #ffffff;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .adaptive{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/try.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-grid.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Responsive Demo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+
+
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row justify-content-end">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a style="color: black" class="nav-link" href="../index.html">Головна</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: black" href="contact.html">Контакти</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: black" href="try.html">Спробувати</a></li>
+                    <li class="nav-item"><img src="../images/logo.png" class="header-pick"></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div class="row justify-content-center align-items-center text-center mt-5">
+        <div class="col-12">
+            <p class="page-title" style="white-space: nowrap;">Спробуй сам!</p>
+            <p class="page-title">Оберіть опції для створення демо-програми</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="font-size: 32px">Рівень:</p>
+                    <div class="button-row">
+                        <button class="button-1" id="levelButtonOne" onclick="changeColor(id)">
+                            <span class="option-button-label">Початковий</span>
+                        </button>
+                        <button class="button-1" id="levelButtonTwo" onclick="changeColor(id)">
+                            <span class="option-button-label">Середній</span>
+                        </button>
+                        <button class="button-1" id="levelButtonThree" onclick="changeColor(id)">
+                            <span class="option-button-label">Продвинутий</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p style="font-size: 32px">Ціль:</p>
+                    <div class="button-row">
+                        <button class="button-1" id="aimButtonOne" onclick="changeColor2(id)">
+                            <span class="option-button-label">Схуднути</span>
+                        </button>
+                        <button class="button-1" id="aimButtonTwo" onclick="changeColor2(id)">
+                            <span class="option-button-label">Набрати масу</span>
+                        </button>
+                        <button class="button-1" id="aimButtonThree" onclick="changeColor2(id)">
+                            <span class="option-button-label">Тримати вагу</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p style="font-size: 32px">Днів на тиждень:</p>
+                    <div class="button-row">
+                        <button class="button-1" id="daysButtonOne" onclick="changeColor3(id)">
+                            <span class="option-button-label">3</span>
+                        </button>
+                        <button class="button-1" id="daysButtonTwo" onclick="changeColor3(id)">
+                            <span class="option-button-label">4</span>
+                        </button>
+                        <button class="button-1" id="daysButtonThree" onclick="changeColor3(id)">
+                            <span class="option-button-label">5</span>
+                        </button>
+                        <button class="button-1" id="daysButtonFour" onclick="changeColor3(id)">
+                            <span class="option-button-label">6</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <p style="font-size: 32px">Тип тренування:</p>
+                    <div class="button-row">
+                        <button class="button-1" id="typeButtonOne" onclick="changeColor4(id)">
+                            <span class="option-button-label">Дома</span>
+                        </button>
+                        <button class="button-1" id="typeButtonTwo" onclick="changeColor4(id)">
+                            <span class="option-button-label">У залі</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="../images/try-image.png" class="try-image">
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center text-center">
+        <div class="col-md-12">
+            <div class="button-wrapper">
+                <button class="button" style="color: white">Згенерувати</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <div class="container">
+        <p>&copy; Якщо у вас є запит і ви хочете поговорити з нашою командою експертів, Ви можете зв’язатися з нами
+            електронною поштою за адресою: Support@Browney.nl</p>
+    </div>
+</footer>
+
+<script>
+
+    let active = false
+    const firstRow = ["levelButtonOne", "levelButtonTwo", "levelButtonThree"]
+    const secondRow = ["aimButtonOne", "aimButtonTwo", "aimButtonThree"]
+    const thirdRow = ["daysButtonOne", "daysButtonTwo", "daysButtonThree"]
+    const fourthRow = ["typeButtonOne", "typeButtonTwo"]
+
+    function changeColor(id) {
+        active = !active
+
+        for (const button of firstRow) {
+            if (button === id) {
+                continue
+            }
+            document.getElementById(button).style.backgroundColor = "white";
+            document.getElementById(button).style.color = "black";
+        }
+
+        document.getElementById(id).style.backgroundColor = "rgb(63, 103, 246)";
+        document.getElementById(id).style.color = "white";
+    }
+
+    function changeColor2(id) {
+        active = !active
+
+        for (const button of secondRow) {
+            if (button === id) {
+                continue
+            }
+            document.getElementById(button).style.backgroundColor = "white";
+            document.getElementById(button).style.color = "black";
+        }
+
+        document.getElementById(id).style.backgroundColor = "rgb(63, 103, 246)";
+        document.getElementById(id).style.color = "white";
+    }
+
+    function changeColor3(id) {
+        active = !active
+
+        for (const button of thirdRow) {
+            if (button === id) {
+                continue
+            }
+            document.getElementById(button).style.backgroundColor = "white";
+            document.getElementById(button).style.color = "black";
+        }
+
+        document.getElementById(id).style.backgroundColor = "rgb(63, 103, 246)";
+        document.getElementById(id).style.color = "white";
+    }
+
+    function changeColor4(id) {
+        active = !active
+
+        for (const button of fourthRow) {
+            if (button === id) {
+                continue
+            }
+            document.getElementById(button).style.backgroundColor = "white";
+            document.getElementById(button).style.color = "black";
+        }
+
+        document.getElementById(id).style.backgroundColor = "rgb(63, 103, 246)";
+        document.getElementById(id).style.color = "white";
+    }
+</script>

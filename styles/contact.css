@@ -1,0 +1,195 @@
+[class*="col-"] {
+    width: 100%;
+}
+
+header {
+    top: 0;
+    height: 50px;
+}
+
+.header-pick {
+    height: 50px;
+}
+
+.button {
+    background: #3F67F6;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: #3F67F6;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+li {
+    margin-top: 2rem;
+
+    list-style: none;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.email-input {
+    width: 90%;
+    border-radius: 15px;
+    background: #FAFAFA;
+    font-size: 20px
+}
+
+.text-input {
+    width: 90%;
+    border-radius: 15px;
+    background: #FAFAFA;
+    font-size: 16px;
+    height: 10rem;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+
+    .button {
+        background: #3F67F6;
+        border-radius: 15px;
+        padding: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    footer {
+        background-color: #3F67F6;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        margin-left: 10rem;
+    }
+
+
+    .email-input {
+        width: 20rem;
+        border-radius: 15px;
+        background: #FAFAFA;
+        font-size: 20px
+    }
+
+    .text-input {
+        width: 50rem;
+        border-radius: 15px;
+        background: #FAFAFA;
+        font-size: 16px;
+        height: 10rem;
+
+    }
+
+    .page-title{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    header {
+        top: 0;
+        height: 100px;
+    }
+
+    .header-pick {
+        height: 50px;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    li {
+        list-style: none;
+        margin-right: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+}
